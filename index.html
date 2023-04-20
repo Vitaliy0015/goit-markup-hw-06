@@ -381,6 +381,28 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="email-input">
+                        <form class="email-form">
+                            <div class="email-modal-field">
+                                <p class="subscribe-title">Subscribe</p>
+                                <div class="subscribe-input-wrap">
+                                    <input
+                                        type="subscribe"
+                                        name="subscribe"
+                                        id="subscribe"
+                                        class="subscribe-modal-input"
+                                        placeholder="E-mail"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <button class="email-footer-btn" type="submit">Subscribe
+                                <svg class="plane-icon" width="24" height="20">
+                                    <use href="./images/icons.svg#icon-telega"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
                 </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
@@ -433,13 +455,15 @@
                             </svg>
                         </span>
                     </label>
-                    <label class="modal-label" for="user-text">Comment
-                        <textarea
-                            name="user-text" 
-                            id="user-text" 
-                            class="modal-textarea"
-                            placeholder="Text input"
-                        ></textarea>
+                    <span class="input-wrap">
+                        <label class="modal-label" for="Comment">Comment</label>
+                            <textarea
+                                name="user-text" 
+                                id="user-text" 
+                                class="modal-textarea"
+                                placeholder="Text input"
+                            ></textarea>
+                    </span>
                     </label>
                         <span class="input-wrap">
                             <input 
