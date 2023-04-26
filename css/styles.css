@@ -869,6 +869,7 @@ img {
     position: absolute;
     left: 16px;
     top: 50%;
+    fill: #2E2F42;
     transform: translateY(-50%);
 }
 .modal-label{
@@ -945,6 +946,7 @@ img {
     justify-content: center;
     fill: transparent;
 }
+
 .input-check:checked + .check-text span {
     background-color: #404BBF;
     border: none;
